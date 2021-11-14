@@ -84,9 +84,9 @@ void wifireset()
   
 }
 
-//#define WIFI_SSID "JARVIS"       // Enter your SSID here
-//#define WIFI_PASS "111111111"    // Enter your WiFi password here
-#define WIFI_HOSTNAME "Social_Counter" 
+//#define WIFI_SSID "ssid"       // Enter your SSID here
+//#define WIFI_PASS "password"    // Enter your WiFi password here
+#define WIFI_HOSTNAME "hostname" 
 #define PORT 5444
 #define WIFICLIENT_MAX_PACKET_SIZE 100
 /*_______End of WiFi definitions______*/
@@ -95,20 +95,20 @@ void wifireset()
 /*______Define Facebook config_______*/ 
 #define FACEBOOK_HOST "graph.facebook.com"
 #define FACEBOOK_PORT 443
-#define PAGE_ID "1801701440063674 "
-#define ACCESS_TOKEN "EAAHA6rZB3Xm8BAN31WOiCcDbRybZBgbq9xgTLUUxD6NN5ltDK1aWOS0nFTfwvVfaoTJqWZAqvpqIpq4mGlA3ovLGZAJT3TJw47wYfyv39YxyyBpqKDfUmBzu7NbKX0bFxiYioaEQ3VWFRPK6KowpuHejSEbZBPxZBZBnrFNbC7wawZDZD"
+#define PAGE_ID "page_is "
+#define ACCESS_TOKEN "access_token"
 // graph.facebook.com SHA1 fingerprint
-const char* facebookGraphFingerPrint = "c522f115f8b2adae1263bc8d5fa7ba80f4f8a2f7";
+const char* facebookGraphFingerPrint = "finger_print";
 /*_______End of Facebook config______*/
 
 /*______Define Youtube config_______*/
-#define API_KEY "AIzaSyCX3-aI_T_gANDe9dhmCcAMCfU36HU2A8I"  // your google apps API Token
-#define CHANNEL_ID "UCxkP6bJRc5JGeV-h0uif4tQ" // makes up the url of channel
+#define API_KEY "api_key"  // your google apps API Token
+#define CHANNEL_ID "channel_id" // makes up the url of channel
 /*_______End of Youtube config______*/
 
 
 /*______Define Instagram config_______*/ 
-String Instagram_userName = "technicalhubio";    // from their instagram url https://www.instagram.com/userName/ 
+String Instagram_userName = "insta_username";    // from their instagram url https://www.instagram.com/userName/ 
 /*_______End of Youtube config______*/
 
 int fanCount=0;
